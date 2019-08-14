@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Freento_GroupAutoSwitch",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL-3.0)",
+    "homepage": "",
+    "description": "Free Magento extension for automatic customer group switching",
+    "authors": [
+    {
+        "name": "Alexey Bordachyov",
+        "email": "alex@freento.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

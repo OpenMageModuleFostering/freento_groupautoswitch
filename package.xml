@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package>
+    <name>Freento_GroupAutoSwitch</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Free Magento extension for automatic customer group switching</summary>
+    <description>&lt;ul&gt;&#xD;
+																		&lt;li&gt;Automatic event based customer group auto switch&lt;/li&gt;&#xD;
+																		&lt;li&gt;Switch group based on lifetime statistic&lt;/li&gt;&#xD;
+																		&lt;li&gt;Switch group based on previous group switch date&lt;/li&gt;&#xD;
+																		&lt;li&gt;Manual group switch&lt;/li&gt;&#xD;
+																		&lt;li&gt;Sending email notifications on group change&lt;/li&gt;&#xD;
+																		&lt;li&gt;Downgrade to some group based on customer activity&lt;/li&gt;&#xD;
+																		&lt;li&gt;Progress bar based on lifetime statistic and current group purchases statistic&lt;/li&gt;&#xD;
+																		&lt;li&gt;Text alert in custmer account for customer groups&lt;/li&gt;&#xD;
+																		&lt;li&gt;Ability to see statistic of purchases in current group in customer account&lt;/li&gt;&#xD;
+																		&lt;li&gt;Individual email welcome messages for customers&lt;/li&gt;&#xD;
+																		&lt;li&gt;Ability to easily filter customers by group in native customer grid&lt;/li&gt;&#xD;
+																		&lt;li&gt;Multistore support&lt;/li&gt;&#xD;
+																		&lt;li&gt;100% free extension&lt;/li&gt;&#xD;
+																	&lt;/ul&gt;</description>
+    <notes>&lt;ul&gt;&#xD;
+																		&lt;li&gt;Automatic event based customer group auto switch&lt;/li&gt;&#xD;
+																		&lt;li&gt;Switch group based on lifetime statistic&lt;/li&gt;&#xD;
+																		&lt;li&gt;Switch group based on previous group switch date&lt;/li&gt;&#xD;
+																		&lt;li&gt;Manual group switch&lt;/li&gt;&#xD;
+																		&lt;li&gt;Sending email notifications on group change&lt;/li&gt;&#xD;
+																		&lt;li&gt;Downgrade to some group based on customer activity&lt;/li&gt;&#xD;
+																		&lt;li&gt;Progress bar based on lifetime statistic and current group purchases statistic&lt;/li&gt;&#xD;
+																		&lt;li&gt;Text alert in custmer account for customer groups&lt;/li&gt;&#xD;
+																		&lt;li&gt;Ability to see statistic of purchases in current group in customer account&lt;/li&gt;&#xD;
+																		&lt;li&gt;Individual email welcome messages for customers&lt;/li&gt;&#xD;
+																		&lt;li&gt;Ability to easily filter customers by group in native customer grid&lt;/li&gt;&#xD;
+																		&lt;li&gt;Multistore support&lt;/li&gt;&#xD;
+																		&lt;li&gt;100% free extension&lt;/li&gt;&#xD;
+																	&lt;/ul&gt;</notes>
+    <authors><author><name>Alexey Bordachyov</name><user>alex</user><email>alex@freento.com</email></author></authors>
+    <date>2016-04-06</date>
+    <time>09:19:48</time>
+    <contents><target name="magecommunity"><dir name="Freento"><dir name="GroupAutoSwitch"><dir name="Block"><dir name="Adminhtml"><dir name="Customer"><dir name="Group"><dir name="Edit"><dir name="Form"><file name="Autoswitch.php" hash="08da64c21efc3ad6c012848c262b14e7"/><file name="Conditions.php" hash="bc9042435fa87e0a965dffeedc915232"/><file name="Downgrade.php" hash="e112afe52d92e89e835366ff06847830"/><file name="GroupSettings.php" hash="e42f9786569539bb56a69e37a6413fb0"/><file name="Main.php" hash="6e6cd1374d22e524bb310626e70a4a81"/></dir><file name="Form.php" hash="50de39e003457a99842cfd4b130bd834"/><file name="Tabs.php" hash="b976216fb8d6cd8a52521632cd0baee9"/></dir></dir></dir><dir name="Log"><file name="Grid.php" hash="e52501ba190cca79e762eda44c4a1e70"/></dir><file name="Log.php" hash="f096d995e5da87dfbc2dbf2d129bebc1"/><dir name="System"><dir name="Config"><dir name="Form"><file name="ForceFill.php" hash="147c3c65474f306944b668d0c82dc2dd"/></dir></dir></dir></dir></dir><dir name="Exception"><file name="General.php" hash="617043870401288f49ef6a896d034bf2"/></dir><dir name="Helper"><file name="Data.php" hash="d9176fa3eb7afbdeca4bd8d2bb4864a0"/></dir><dir name="Model"><file name="Cron.php" hash="14927760f0132581ed675cfc9259a78f"/><file name="Group.php" hash="4976dedd88f61b3f1fe9c750dbf6cadd"/><file name="Log.php" hash="2d5ce86ca7ae3e90574976b8d3cd081d"/><file name="Observer.php" hash="bff3e531e8726a5326f900213b6b1001"/><dir name="Resource"><dir name="Group"><file name="Collection.php" hash="5646f620c1775f3f006bb77a3c90d821"/></dir><file name="Group.php" hash="ffe248d7aa2b9f667b93505635429660"/><dir name="Log"><file name="Collection.php" hash="ca29a102398066b9de8a6b01fc7aef84"/></dir><file name="Log.php" hash="be66832bfcd29c21c22cbf1e70d2b804"/></dir><dir name="Rule"><dir name="Condition"><file name="Combine.php" hash="aee27cdc2d1677a7100d2f09ef5990b0"/><dir name="Customer"><dir name="Attribute"><file name="Group.php" hash="7b0f6a175ec309ebda496a26fb9337f4"/></dir><dir name="Statistic"><file name="Abstract.php" hash="78cdf63201a12128fce241f7ac9f0f93"/><file name="CurrentGroupSales.php" hash="8c74a85435f17f88abe78e82eafed5ea"/><file name="LifetimeSales.php" hash="94472df9560f747e198a0da60395c040"/></dir></dir></dir></dir></dir><dir name="Test"><dir name="Model"><dir name="Cron"><dir name="expectations"><file name="downgradeCheck.php" hash="e92b0eb7d8d54f731412facd922dde46"/><file name="forceFill.php" hash="351301b821b5d62ba46803dec633ec62"/></dir><dir name="fixtures"><file name="downgradeCheck.php" hash="23fddefcb714ba283c98064484536c66"/><file name="forceFill.php" hash="c7de55cb855ae518c24dfccad6fe1dbd"/></dir><dir name="providers"><file name="downgradeCheck.php" hash="14d3c11893e08c90596769b37ac55a9e"/><file name="forceFill.php" hash="e0efca150b0cb1b020cde5b3e38053f9"/></dir></dir><file name="Cron.php" hash="7b38690fa5cb4442465e14d2b093b112"/><dir name="Group"><dir name="expectations"><file name="switchGroup.php" hash="ed4a7487674df2f93e8a93c4b6eace85"/></dir><dir name="fixtures"><file name="switchGroup.php" hash="15cc865c7c1e44235ea8ea43e24195a7"/></dir><dir name="providers"><file name="switchGroup.php" hash="e9144a7a95ebaef4d851f14201a2a126"/></dir></dir><file name="Group.php" hash="10d19866cb4fdb0f8756f09b4ccf615a"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Customer"><file name="GroupController.php" hash="6a89673d0d7b8e13ed702df2bccc4b72"/></dir><file name="LogController.php" hash="be1bfb0c98fb9064cdfc067fae70f674"/><dir name="System"><file name="ConfigController.php" hash="8bcce53cd5f8202020cd2488835fb21c"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="f4ec111db6cbed826987e369b4c3a779"/><file name="config.xml" hash="4e3cacac8ce40e4d7e7a9b984cadaf13"/><file name="system.xml" hash="a512e179e14703bd8d49298568b1e8b9"/></dir><dir name="sql"><dir name="freento_groupautoswitch_setup"><file name="mysql4-install-1.0.0.php" hash="b32c4d6cc1f27ca5d626b8d377baa761"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="freento"><file name="groupautoswitch.xml" hash="98670633c5f24bc037591ad238451fef"/></dir></dir><dir name="template"><dir name="freento_groupautoswitch"><dir name="system"><dir name="config"><file name="forceFill.phtml" hash="af149d17a7bf808a63b8822b3bd0adcf"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Freento_GroupAutoSwitch.xml" hash="7542ef677d1ccc3444931ce45738a342"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><dir name="freento"><dir name="groupautoswitch"><file name="auto_switch.html" hash="b3ddd85ee862798513ea6e3d987f47ae"/><file name="downgrade.html" hash="b3ddd85ee862798513ea6e3d987f47ae"/><file name="downgrade_before.html" hash="a6a90d4e653afbe3a507025ead4dafc0"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
